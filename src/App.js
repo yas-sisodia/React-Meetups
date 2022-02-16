@@ -13,13 +13,10 @@ function App() {
       
       <Routes>
         <Route path='/' element={<AllMeetupsPage />}/>
-          
-        
         <Route path='/new-meetup' element={<NewMeetupPage />}/>
-          
-        
         <Route path='/favorites' element={<FavoritesPage />}/>
       </Routes>
+      
     </Layout>
   );
 }
